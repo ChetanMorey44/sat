@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo">
+         
+    </div>
+    <script>
+        const p = fetch("https://jsonplaceholder.typicode.com/todos")
+        p.then((chetan1)=>{
+           return chetan1.json();
+        }).then((chetan2)=>{
+            console.log(chetan2)
+            document.getElementById('demo').innerHTML=`<h1>Chetan</h1><pre>${JSON.stringify(chetan2,null,2)}</pre>`
+        })
+    </script>
+</body>
+</html>

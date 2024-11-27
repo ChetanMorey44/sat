@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+      <div>
+          <input type="text" id="a">
+      </div>
+      <div>
+          <span id="ch1"></span>
+      </div>
+
+       <button onclick="chetan()">Submit</button>
+
+       <div>
+           <span id="ch2"></span>
+       </div>
+    </form>
+        <script>
+           function chetan()
+           {
+            const a =document.getElementById
+             ('a').value;
+           const ch1 =document.getElementById  ('ch1').value;
+           const ch2 =document.getElementById  ('ch2').value;
+             if (a === "  "){
+                document.getElementById('ch2').innerHTML='Successfully;'
+             }else{
+                document.getElementById('ch1').  innerHTML='Invalid Info';
+             }
+           }
+        </script>
+</body>
+</html>

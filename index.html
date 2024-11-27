@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body id="color2">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- <script>
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+});
+</script> -->
+</head>
+<body id="color2" >
+
+  <!-- <select name="" id="color" onchange="fun()">
+     <option value="red">Red</option>
+     <option value="green">Green</option>
+     <option value="blue">Blue</option>
+  </select>
+
+  <div id="color2" style="width: 100%; height: 100vh;">
+  </div>
+
+  <script>
+    function fun(){
+    const color = document.getElementById('color');
+    const color2 = document.getElementById('color2');
+    const chetan = color.value;
+    
+    color2.style.backgroundColor=chetan;
+
+   }
+  </script>
+ -->
+ <select name="" id="color" onchange="fun()">
+   <option value="blue">
+       blue
+   </option>
+   <option value="red">
+       red
+   </option>
+   <option value="green">
+       green
+   </option>
+ </select>
+ <script>
+    function fun(){
+      const color = document.getElementById("color");
+      const color2 = document.getElementById("color2");
+      const select = color.value;
+
+      color2.style.backgroundColor=select
+    }
+
+
+
+
+
+    // let num = prompt("Enter the number to check Even or odd");
+    // if(num % 2 == 0){
+    //   document.write(`The number is Even ${num}`);
+    // }else{
+      
+    //   document.write(`The number is Odd ${num}`);
+    // }
+
+
+    // const chetan =prompt("print even or odd number")
+    // if(chetan % 2 == 0 ){
+    //    document.write( `${chetan}  is even no` )
+    // }else {
+    //   document.write( `${chetan}  is odd no` )
+    // }
+
+
+    
+     
+
+    
+ </script>
+
+    <script src="js/script.js">
+       
+    </script>
+
+
+</body>
+</html>

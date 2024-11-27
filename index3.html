@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+<style>
+     
+     /* #box{
+        width:300px;
+        height: 300px;
+        justify-content:center;
+        align-items: center;
+        display: flex;
+        background-color: rgb(234, 27, 27);
+        }
+     #box:hover{
+         background-color: aquamarine;
+         transition-duration: 2s;
+         transition-delay: calc(0.2s);
+        
+        } */
+</style>
+<body>
+    <div  class="contsiner">
+         <h1 id="box">
+            chetan here
+         </h1>
+    </div>
+
+    
+
+
+    <select name="" id="color" onchange="chetan">
+          <option value="red" id="color3">Red</option>
+          <option value="blue">Blue</option>
+          <option value="green">green</option>
+
+    </select>
+
+   
+
+    <script>
+         
+
+//         //spread opretor
+// //    function sum (a,b,c){
+// //     console.log(a*b*c)
+// //     document.write(a*b*c)
+// //    }
+// //     //sum(1,2,3);
+// //    const arr1 = [4,5,7,4,5,6,7,8,8,];
+
+// //      console.log(...arr1)
+
+// //      sum(...arr1)
+
+// let arr1 = [1,2,3];
+// let arr2 = [4,5,6];
+// let arr3 = [1,4,5];
+//    arr1=[...arr1,...arr2,...arr3]
+// //arr1=arr1.concat(arr2)
+// console.log(arr1)
+
+// function sum (a,b,c){
+//   console.log(a*b*c) 
+//   document.write(a*b*c)
+// }
+// //sum(1,2,3)
+// const arr = [1,2,3]
+//  //sum.apply(null, arr)
+//  console.log(...arr)
+// sum(...arr)
+
+// let arr1=[1,2,3,4];
+// let arr2=[7,6,4,4];
+// let arr3=[6,2,7,4];
+
+// //arr1=arr1.concat(arr2,arr3)
+// arr1 =[...arr1,...arr2,...arr3]
+// document.write(arr1)
+// console.log(arr1)
+
+
+// const arr = {
+//  name:'chetan',
+//  age:24,
+//  Education:'BE (CSE)',
+//  job:'ECTI'
+// }
+// let{name:fname,age:myage,Education:myed,job:myjob}=arr;
+
+// console.log('my name is '+fname+ "my age is"+myage+'my education is '+myed+ "and my company name is "+myjob+" ")
+// document.write('my name is '+fname+ "my age is"+myage+'my education is '+myed+ "and my company name is "+myjob+" ")
+
+// console.log(`my name is ${fname} and my age is ${myage} my education complete in ${myed} my company name is ${myjob}`)
+
+  //const chetan = [1,2,3,4,5,6,7,8]
+//    console.log(chetan)
+    // for( i =0;i<chetan.length;i++) {
+    //     console.log(chetan[i])
+    // }
+    // chetan.forEach((x)=>{
+    //     console.log(x)
+    // })
+
+
+    // map method
+// const chetan = [12,2,3,4,5,6,7,8]
+//      const a = chetan.map((dada)=>{
+//         return dada*20;
+//      })
+//      console.log(a)
+//      document.write(a)
+
+//this is filter method or function 
+    //  const chetan1 = [12,2,3,4,5,6,7,8]
+    //  const a2 = chetan1.filter((dada)=>{
+    //     return dada<=9;
+    //  })
+    //  console.log(a2)
+    //  document.write(a2)
+
+    //array of objects
+
+    // const chetan = [
+    //     {fname:'chetan' , lname:'morey'},
+    //     {fname:'Shrushti' , lname:'Yevtikar'},
+    //     {fname:'Bhushan' , lname:'gaygole'},
+    //     {fname:'neha' , lname:'kharsan'}
+      
+    // ]
+    // const a = chetan.map((e)=>{
+    //     return e.fname + " " + e.lname + "<br>"
+    // })
+    // console.log(a)
+    // document.write(a)
+
+
+
+     // Array of objects with using map method or function map
+
+
+
+    // const chetan =[
+    //     {lname:'chetan',fname:'Morey'},
+    //     {lname:'Shrushti',fname:'yevtikar'},
+    //     {lname:'purva',fname:'take'},
+    //     {lname:'Chotu',fname:'Ambhore'},
+    // ]
+    //  const a = chetan.map((x)=>{
+    //     return x.lname + " " + x.fname +"<br>"
+    //  })
+    //  console.log(a)
+    //  document.write(a)
+
+
+// const programming_lang = ['java','.net','react','css','bootstrap' ,'html']
+
+    //  document.write(programming_lang)
+     //no need to do this proccess
+    //  let top1 = programming_lang[0];
+    //  let top2 = programming_lang[1];
+    //  let top3 = programming_lang[2];
+    //  let top4 = programming_lang[3];
+    //  let top5 = programming_lang[4];
+
+    //  console.log(top1)
+    //  console.log(top2)
+    //  console.log(top3)
+    //  console.log(top4)
+    //  console.log(top5)
+
+    // let{top1,top2,top3,top4,top5}=programming_lang
+       
+    // document.write(programming_lang.length)
+
+// function sum (a,b,c){
+//     console.log(a*b*c)
+//     // document.write(a*b*c)
+// }
+// sum(2,3,4)
+
+//  const chetan = [2,3,4,3,4,5,6,7,8,9]
+//      //sum.apply(null,chetan);
+
+//      sum(...chetan)
+
+//      console.log(chetan.length)
+//      console.log(...chetan)
+//      console.log(chetan)
+
+   const arr1 = [1,2,3];
+   const arr2 = [6,4,9];
+   const arr3 = [3,7,3];
+
+//    console.log(...arr1,...arr2,...arr3)
+
+   //arr=arr1.concat(arr2,arr3)
+
+//document.write(arr)
+//console.log(arr)
+
+
+
+const Programming_lang= ['Html','css','java','css','php','bootstrap']
+
+
+// console.log(Programming_lang)
+// console.log(Programming_lang[1])
+
+//es5
+//no need to do this
+//   let top1=Programming_lang[0]
+//   let top2=Programming_lang[1]
+//   let top3=Programming_lang[2]
+
+//   console.log(top1)
+//   console.log(top2)
+//   console.log(top3)
+
+//es6 
+//let [top1,top2,top3,top4,top5,top6] = Programming_lang;
+//   console.log()
+
+//  let chetan= {
+//      name:'chetan',
+//      age:21,
+//      company:'ECTI'
+//  }
+//  //console.log(chetan)
+//  let {name:fname,age:myage,company:ecti}=chetan
+  
+//  console.log(`my name is ${fname} and my age is ${myage} and my company name is ${ecti}`)
+
+//  document.write(`my name is ${fname} and my age is ${myage} and my company name is ${ecti}`)
+
+
+
+
+const arr = new Array (3,5,6,7,8,)
+console.log(arr)
+//const arr4 = [9,10,11,12,13]
+const arr4 = [
+    {fname:'Chetan' , lname:'Morey'},
+    {fname:'Neha' , lname:'Morey'},
+    {fname:'Rajesh' , lname:'Morey'},
+    {fname:'Gautam' , lname:'Morey'},
+]
+//console.log(arr4.length)
+const a = arr4.map((x)=>{
+    return x.fname +" "+ x.lname
+})
+//console.log(a)// beacuse applying a map function
+//console.log(arr4)// cant applying map function 
+
+const chetan = {
+    name:'chetan',
+    age:24,
+    job:'Envison'
+}
+let ={name:myname,age:myage,job:myjob}=chetan;
+
+ console.log(`My name is ${myname} and my age is ${myage} iam doing job right now in ${myjob}`)
+   
+ const newarr=[1,2,3]
+  //console.log(` the array is ${newarr}`)
+  //console.log("the array is "+newarr+" ")
+
+
+  const a1=[1,2,3];
+  const a2=[4,5,6];
+  const a3=[7,8,9];
+
+  //const a4=a1.concat(a2,a3)
+   a4=[...a1,...a2,...a3]
+
+  //console.log(a4)
+
+
+//sum1(2,3,4)
+
+const sum2 = [10,20,30,80,80,70,60,50]
+ let [r,,...rest]=sum2
+
+ //console.log(r, rest)
+
+
+ const chetan_morey = [
+    {fname:'chetan',lname:'morey'},
+    {fname:'Rajesh',lname:'morey'},
+    {fname:'Ravi',lname:'morey'},
+    {fname:'Neha',lname:'morey'}
+ ]
+
+ const as=chetan_morey.map((dada)=>{
+    return dada.fname +" "+ dada.lname
+ })
+ //console.log(as)
+
+const assa= ['chetan',23,false,'neha',2,3,4,null,undefined]
+
+const chettt=[1,2,3,4,5,6,7]
+// const assa = [1,2,3,4,5,5]
+
+// for( num=1;num<=assa.length; num++){
+//     console.log(assa[num])
+// }
+assa.map((e)=>{
+   //console.log(e)
+})
+chettt.forEach((c)=>{
+   //console.log(c*2)
+})
+
+const chetann = new Array(2,3,4,4,5,6,7,8,9,2,3,45,6,7,8,8,9)
+let [w,b,c,...gh]=chetann;
+
+//console.log(w,b,c,...gh)
+
+
+//console.log(chetann)
+
+
+
+
+
+
+    </script>
+
+
+   
+
+
+
+
+</body>
+</html>
